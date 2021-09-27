@@ -1,5 +1,6 @@
 main {
   padding: 0 3rem;
+  padding-bottom: 3rem;
 }
 
 .hero {
@@ -7,11 +8,15 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: 5rem;
+  font-size: 8rem;
   font-weight: bold;
   color: white;
   background-color: #282c34;
   min-height: 60vh;
+}
+
+.hero > span {
+  color: #7f97b6;
 }
 
 .app {
@@ -20,7 +25,7 @@ main {
 }
 
 .header {
-  background-color: #282c34;
+  background-color: #33373f;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -32,6 +37,22 @@ main {
   backdrop-filter: blur(3px);
 }
 
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-links > p {
+  margin: 0.5rem 0;
+  margin-right: 1rem;
+}
+
 .link {
   color: #61dafb;
+}
+
+section {
+  margin-bottom: 3rem;
 }
