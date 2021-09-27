@@ -1,23 +1,53 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+    <div className="app">
+      <div className="hero">
+        UliComponents
+      </div>
+
+      <header className="header">
+        <div className="nav-links">
+          <p>
+            Instalation
+          </p>
+          <p>
+            Components
+          </p>
+          <p>
+            About
+          </p>
+        </div>
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          className="link"
+          href="https://github.com/denkiapple/ulicomponents"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Github repo
         </a>
       </header>
+
+      <main>
+        <section>
+          <h2>
+            Instalation
+          </h2>
+        </section>
+
+        <section>
+          <h2>
+            Components
+          </h2>
+        </section>
+
+        <section>
+          <h2>
+            About
+          </h2>
+        </section>
+      </main>
     </div>
   );
 }
