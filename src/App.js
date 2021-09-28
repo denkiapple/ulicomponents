@@ -6,13 +6,16 @@ function App() {
       <div className="hero">
         {"<"}
         <span>
-          uli
+          Uli
         </span>
         {"Components />"}
       </div>
 
       <header className="header">
         <div className="nav-links">
+          <p>
+            {"<UC />"}
+          </p>
           <p>
             Instalation
           </p>
